@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hina Haq Nawaz | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+  <a href="#education">Education</a><a href="#experience">Experience</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h1>Hi, I’m Hina Haq Nawaz</h1>
+  <p class="lead">BS Software Engineering student and aspiring web developer who builds clean, responsive websites.</p>
+  <a class="btn" href="#contact">Get in touch</a>
+</section>
+
+<section id="about">
+  <h2>About me</h2>
+  <p>I’m Hina Haq Nawaz, a BS Software Engineering student at Superior University, Gold Campus. I enjoy turning ideas into simple, useful websites and apps with HTML, CSS and JavaScript.</p><p>I learn by building real projects, and I’m always working to write cleaner code and design better user experiences.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive design</span><span>DOM manipulation</span><span>Git</span><span>Graphic design</span><span>Adobe Photoshop</span><span>Adobe Illustrator</span><span>Adobe InDesign</span><span>UI/UX basics</span></div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card"><h3>To-Do List App</h3><p>Add, edit, complete and delete tasks. Saved in the browser with localStorage.</p><a class="btn" href="https://claude.ai/artifact/CTfVwNUbL8K54U2tmLFpML" target="_blank" rel="noopener">View project</a></div>
+    <div class="card"><h3>Quiz App</h3><p>Timed questions with instant feedback and a final score.</p></div>
+    <div class="card"><h3>Personal Portfolio</h3><p>This responsive site with smooth scrolling and a validated contact form.</p></div>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="item"><b>BS Software Engineering</b><small>Superior University, Gold Campus · Present</small></div>
+  <div class="item"><b>Computer Diploma in Graphic Designing</b><small>Mubeen’s Computer Lab · 2023 – 2025</small></div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="item"><b>Graphic Designer</b><small>Mubeen’s Computer Lab · Aug 2023 – Oct 2025</small><p>Completed practical graphic design training using Adobe Photoshop, Illustrator and InDesign, and applied the same design sense to my web projects.</p></div>
+  <div class="item"><b>Web Development Trainee</b><small>Pynexia · 2026</small><p>Building hands-on projects with HTML, CSS and JavaScript.</p></div>
+</section>
+
+<section id="achievements">
+  <h2>Achievements</h2>
+  <div class="item"><b>Computer Diploma in Graphic Designing</b><small>Mubeen’s Computer Lab · Photoshop, Illustrator, InDesign</small></div>
+  <div class="item"><b>Completed hands-on web projects</b><small>To-Do List, Quiz and Portfolio</small></div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:hinagillhinagill944@gmail.com" style="color:var(--accent)">hinagillhinagill944@gmail.com</a></p>
+  <form id="f" novalidate>
+    <div><label for="n">Name</label><input id="n" type="text" autocomplete="name"><div class="err" id="en"></div></div>
+    <div><label for="e">Email</label><input id="e" type="email" autocomplete="email"><div class="err" id="ee"></div></div>
+    <div><label for="m">Message</label><textarea id="m" rows="4"></textarea><div class="err" id="em"></div></div>
+    <button class="btn" type="submit">Send message</button>
+    <div id="done" class="ok"></div>
+  </form>
+</section>
+
+<footer>© Hina Haq Nawaz. Built with HTML, CSS and JavaScript.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
